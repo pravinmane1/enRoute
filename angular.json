@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "cxLoyalty": {
+    "enRoute": {
       "i18n": {
         "sourceLocale": "en-US",
         "locales": { "mr-IN": "src/locale/messages.mr.xlf" }
@@ -29,7 +29,7 @@
           "builder": "@angular-devkit/build-angular:application",
           "options": {
             "localize": ["en-US"],
-            "outputPath": "dist/cx-loyalty",
+            "outputPath": "dist/en-route",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "cxLoyalty:build:production"
+              "buildTarget": "enRoute:build:production"
             },
             "development": {
-              "buildTarget": "cxLoyalty:build:development"
+              "buildTarget": "enRoute:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -81,7 +81,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "cxLoyalty:build"
+            "buildTarget": "enRoute:build"
           }
         },
         "test": {

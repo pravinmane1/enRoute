@@ -10,7 +10,7 @@ import { selectIsAppLoading } from './store/shared/shared.selectors';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent implements OnInit {
-  title = 'cxLoyalty';
+  title = 'enRoute';
   public isAppLoading$!: Observable<boolean>;
 
   constructor(private store: Store) {}

@@ -61,7 +61,7 @@ export class FlightSearchInputComponent implements OnInit, OnDestroy {
       placeholder: $localize`Airport or City`,
     },
     destination: {
-      label: $localize`Departure`,
+      label: $localize`Destination`,
       placeholder: $localize`Airport or City`,
     },
     dateRangePicker: {

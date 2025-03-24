@@ -10,6 +10,7 @@
   overflow-x: scroll;
   -ms-overflow-style: none; /* Internet Explorer 10+ */
   scrollbar-width: none; /* Firefox */
+  margin-top: 5px;
 }
 
 .tab-options::-webkit-scrollbar {
@@ -23,12 +24,12 @@
   flex-grow: 1;
   justify-content: center;
   align-items: center;
-  border-bottom: 3px solid gray;
+  border-bottom: 2px solid gray;
   padding: 0.5rem;
 }
 
 .active-border {
-  border-color: #2c4a5f;
+  border-color: #4000ff;
 }
 
 .icon {

@@ -8,6 +8,7 @@
   top: -0.75rem;
   left: 0.5rem;
   padding: 0 0.25rem;
+  font-style: italic;
 }
 
 .text-input {
@@ -15,6 +16,11 @@
   width: 100%;
   border-radius: 0.5rem;
   border: 0.5px solid #bcbbbb;
+}
+
+.text-input::placeholder{
+  color: #bcbbbb;
+  font-size: 0.725rem;
 }
 
 .key-holder {

@@ -34,8 +34,8 @@ describe('AppComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should have title "cxLoyalty"', () => {
-    expect(component.title).toBe('cxLoyalty');
+  it('should have title "enRoute"', () => {
+    expect(component.title).toBe('enRoute');
   });
 
   it('should select isAppLoading from store on init', () => {

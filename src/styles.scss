@@ -1,9 +1,10 @@
 $clr-primary-200: #add8e6;
 $clr-primary-400: #2da9e5;
-$clr-primary-450: #3f6987;
-$clr-primary-500: #0159a1;
+$clr-primary-450: #5c009e;
+$clr-primary-500: #541b6d;
+$clr-primary-550: #370d54;
 
-$clr-secondary-400: #018940;
+$clr-secondary-400: #582b99;
 
 $clr-neutral-100: hsl(100, 100%, 100%);
 $clr-neutral-150: hsl(0, 0%, 91%);
@@ -131,6 +132,9 @@ svg {
 }
 .bg-primary-500 {
   background-color: $clr-primary-500;
+}
+.bg-primary-550 {
+  background-color: $clr-primary-550;
 }
 .bg-secondary-400 {
   background-color: $clr-secondary-400;
