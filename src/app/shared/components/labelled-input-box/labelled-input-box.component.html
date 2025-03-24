@@ -1,0 +1,20 @@
+<div class="input-box">
+  <label
+    class="input-label fs-200 fw-semi-bold bg-neutral-100"
+    for="departure"
+    >{{ label }}</label
+  >
+
+  <span *ngIf="prefix" class="prefix">{{ prefix }}</span>
+  <input
+    #inputBox
+    [type]="inputType"
+    class="text-input"
+    [ngClass]="{ 'shift-left': prefix }"
+    (click)="onInputClick()"
+    [value]="value"
+    (keyup)="onInputTextChange($event)"
+    [placeholder]="placeholder"
+    [readonly]="readOnly"
+  />
+</div>

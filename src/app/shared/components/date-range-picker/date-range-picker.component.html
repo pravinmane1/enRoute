@@ -1,0 +1,35 @@
+<div class="input-calendar-holder">
+  <div class="date-container">
+    <app-labelled-input-box
+      class="labelled-input"
+      (inputClick)="onInputClick('startDate')"
+      (outSideClick)="onOutSideClick('startDate')"
+      [value]="displayStartDate"
+      [label]="startDatePickerLabel"
+      [readOnly]="true"
+      [placeholder]="placeholder"
+    ></app-labelled-input-box>
+    <app-labelled-input-box
+      class="labelled-input"
+      (inputClick)="onInputClick('endDate')"
+      (outSideClick)="onOutSideClick('endDate')"
+      [value]="displayEndDate"
+      [label]="endDatePickerLabel"
+      [readOnly]="true"
+      [placeholder]="placeholder"
+    ></app-labelled-input-box>
+  </div>
+  <div class="calendar-locator bg-neutral-100" *ngIf="isCalendarVisible">
+    <app-calendar-date-picker
+      [title]="datePickerTitle"
+      (closeClicked)="closeCalendar()"
+      (calendarDateSelected)="onCalendarDateSelect($event)"
+      [minDate]="calendarMinDate"
+      [maxDate]="calendarMaxDate"
+      [selectedDate]="selectedCalendarDate"
+    ></app-calendar-date-picker>
+  </div>
+  <div *ngIf="errorMessage" class="error fs-150 fw-semi-bold">
+    {{ errorMessage }}
+  </div>
+</div>

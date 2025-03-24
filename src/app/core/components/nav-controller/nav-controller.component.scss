@@ -1,0 +1,14 @@
+.app-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  padding: 0.65rem;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 961px) {
+  .app-bar {
+    padding: 1rem;
+  }
+}

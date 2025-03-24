@@ -1,0 +1,63 @@
+<div class="filter-container">
+  <div class="filter-header bg-primary-500 text-neutral-100">
+    <span i18n>Filter By</span>
+  </div>
+  <img
+    class="back-btn"
+    ngSrc="./assets/arrow-left.svg"
+    height="20"
+    width="20"
+    (click)="onCloseClick()"
+    (keydown)="onCloseClick()"
+    alt="close"
+    tabindex="0"
+  />
+
+  <div class="price-filter card-shadow">
+    <div class="section-title" i18n>Price Range</div>
+    <div class="price-range">
+      <app-labelled-input-box
+        class="grow"
+        [value]="minimumPrice"
+        [inputType]="'number'"
+        (inputTextChange)="onInputTextChange($event, 'minimum')"
+        [label]="controls.minimumPrice.label"
+        [prefix]="controls.minimumPrice.prefix"
+      ></app-labelled-input-box>
+      <app-labelled-input-box
+        class="grow"
+        [value]="maximumPrice"
+        [inputType]="'number'"
+        (inputTextChange)="onInputTextChange($event, 'maximum')"
+        [label]="controls.maximumPrice.label"
+        [prefix]="controls.maximumPrice.prefix"
+      ></app-labelled-input-box>
+    </div>
+  </div>
+
+  <div class="class-filter card-shadow">
+    <div class="section-title" i18n>Booking Class</div>
+    <div class="checkbox" *ngFor="let classType of classOptions">
+      <input
+        type="checkbox"
+        [(ngModel)]="classType.isChecked"
+        [id]="classType.data.code"
+        [name]="classType.data.code"
+      /><label [for]="classType.data.code" class="grow">{{
+        classType.data.name
+      }}</label>
+    </div>
+  </div>
+
+  <div class="btn-group">
+    <button class="grow btn" (click)="onResetClick()" i18n>Reset All</button>
+    <button
+      class="grow btn apply-btn btn-shadow bg-primary-500 text-neutral-100"
+      [disabled]="isApplyDisabled"
+      (click)="onFilterSubmit()"
+      i18n
+    >
+      Apply
+    </button>
+  </div>
+</div>

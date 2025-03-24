@@ -1,0 +1,32 @@
+<div class="tab-options">
+  <ng-container *ngFor="let tab of tabs; index as i">
+    <div
+      class="tab-option fw-bold"
+      [ngClass]="{
+        'active-border': i === selectedTabIndex
+      }"
+      (click)="onTabClick(i)"
+      (keydown)="onTabClick(i)"
+      tabindex="0"
+    >
+      <img
+        [ngSrc]="getTabIcon(i)"
+        width="30"
+        height="30"
+        class="icon"
+        alt="tab"
+      />
+      <span
+        [ngClass]="{
+          'active-tab': i === selectedTabIndex,
+          'text-primary-450': i === selectedTabIndex
+        }"
+        class="tab-title"
+        >{{ tab.title }}</span
+      >
+    </div>
+  </ng-container>
+</div>
+<div class="tab-content">
+  <ng-container *ngTemplateOutlet="tabContentRef"></ng-container>
+</div>

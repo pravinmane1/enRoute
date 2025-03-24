@@ -1,0 +1,50 @@
+<div class="calendar-container">
+  <div class="fixed-top bg-neutral-100">
+    <div class="calendar-header bg-primary-500 text-neutral-100">
+      <img
+        class="back-btn"
+        ngSrc="./assets/arrow-left.svg"
+        height="20"
+        width="20"
+        (click)="onCloseClick()"
+        (keydown)="onCloseClick()"
+        alt="close"
+        tabindex="0"
+      />
+      <span>{{ title }}</span>
+    </div>
+
+    <div class="days-title">
+      <div *ngFor="let day of days" class="day-title">{{ day }}</div>
+    </div>
+  </div>
+  <div class="empty-placeholder"></div>
+  <div class="months">
+    <div *ngFor="let month of renderMonths" class="month">
+      <div class="fw-bold month-title">
+        {{ month.monthName }} {{ month.year }}
+      </div>
+      <div class="days-container">
+        <div
+          *ngFor="let day of month.dayBlocks"
+          class="day fw-bold"
+          [ngClass]="{
+            'disabled-day': day.isDisabled,
+            'empty-block': !day?.displayValue
+          }"
+          (click)="onDayClicked(month, day)"
+          (keydown)="onDayClicked(month, day)"
+          tabindex="0"
+        >
+          <span
+            *ngIf="day.isToday"
+            class="today-title text-primary-500 fs-150"
+            i18n
+            >Today</span
+          >
+          {{ day?.displayValue || "" }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

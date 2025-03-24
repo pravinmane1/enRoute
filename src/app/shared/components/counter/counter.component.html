@@ -1,0 +1,23 @@
+<div class="counter">
+  <img
+    ngSrc="./assets/minus.svg"
+    height="20"
+    width="20"
+    class="clickable"
+    (click)="onDecrease()"
+    (keydown)="onDecrease()"
+    alt="decrease-count"
+    tabindex="0"
+  />
+  <span class="counter-text">{{ displayCount }}</span>
+  <img
+    ngSrc="./assets/plus.svg"
+    height="20"
+    width="20"
+    class="clickable"
+    (click)="onIncrease()"
+    (keydown)="onIncrease()"
+    alt="increase-count"
+    tabindex="0"
+  />
+</div>

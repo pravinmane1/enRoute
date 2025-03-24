@@ -1,0 +1,18 @@
+.counter {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  padding: 0.5rem;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}
+
+.counter-text {
+  min-width: 1.5rem;
+  text-align: center;
+}
+
+.clickable {
+  cursor: pointer;
+}

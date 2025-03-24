@@ -1,0 +1,95 @@
+@import "../../../../styles.scss";
+
+.calendar-header {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.days-container,
+.days-title {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.days-title {
+  text-align: center;
+  margin-top: 0.5rem;
+  box-shadow: (0 0 0 / 26%) 0px 5px 15px;
+}
+
+.days-container {
+  border-top: 1px solid $clr-neutral-150;
+}
+
+.day {
+  text-align: center;
+  border-bottom: 1px solid $clr-neutral-150;
+  border-right: 1px solid $clr-neutral-150;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.day:hover {
+  background-color: $clr-primary-200;
+  cursor: pointer;
+}
+
+.disabled-day:hover,
+.empty-block:hover {
+  background-color: unset;
+  cursor: default;
+}
+
+.month-title {
+  margin: 1rem;
+}
+
+.fixed-top {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 8;
+}
+
+.empty-placeholder {
+  margin-top: 6rem;
+}
+
+.disabled-day {
+  color: $clr-neutral-150;
+}
+
+.today-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.empty-block {
+  background-color: $clr-neutral-150;
+}
+
+@media (min-width: 961px) {
+  .fixed-top {
+    position: static;
+    background: $clr-neutral-100;
+    right: auto;
+    left: auto;
+    top: auto;
+    z-index: 8;
+  }
+  .empty-placeholder,
+  .days-title,
+  .back-btn {
+    display: none;
+  }
+
+  .months {
+    display: flex;
+  }
+}

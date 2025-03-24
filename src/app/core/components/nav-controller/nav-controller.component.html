@@ -1,0 +1,15 @@
+<div class="app-bar bg-primary-500">
+  <div class="app-title fw-bold">
+    <span class="text-primary-400" i18n>cX</span
+    ><span class="text-neutral-100" i18n>Loyalty</span>
+  </div>
+</div>
+<app-tab-factory
+  [tabs]="tabs"
+  [selectedTabIndex]="(selectedTabIndex$ | async) || 0"
+  (tabChanged)="onTabChanged($event)"
+>
+  <ng-template #tabContent>
+    <router-outlet></router-outlet>
+  </ng-template>
+</app-tab-factory>

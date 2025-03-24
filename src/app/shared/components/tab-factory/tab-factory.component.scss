@@ -1,0 +1,36 @@
+.tab-options,
+.tab-option {
+  display: flex;
+  flex-flow: row nowrap;
+  cursor: pointer;
+}
+
+.tab-options {
+  justify-content: space-between;
+  overflow-x: scroll;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.tab-options::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+
+.tab-option {
+  gap: 8px;
+  min-width: max-content;
+  margin: 0 0.5rem;
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid gray;
+  padding: 0.5rem;
+}
+
+.active-border {
+  border-color: #2c4a5f;
+}
+
+.icon {
+  padding: 5px;
+}

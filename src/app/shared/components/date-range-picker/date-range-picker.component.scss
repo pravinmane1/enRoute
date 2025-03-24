@@ -1,0 +1,40 @@
+.date-container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+}
+
+.labelled-input {
+  flex-grow: 1;
+}
+.calendar-locator {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 8;
+}
+
+.error {
+  color: red;
+}
+
+@media (min-width: 961px) {
+  .calendar-locator {
+    position: absolute;
+    top: auto;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    width: 50%;
+    overflow: auto;
+    box-shadow:
+      rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+
+  .input-calendar-holder {
+    position: relative;
+  }
+}

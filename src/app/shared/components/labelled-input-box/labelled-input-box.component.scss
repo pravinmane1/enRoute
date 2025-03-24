@@ -1,0 +1,38 @@
+.input-box {
+  position: relative;
+  margin: 0.75rem 0 0 0;
+}
+
+.input-label {
+  position: absolute;
+  top: -0.75rem;
+  left: 0.5rem;
+  padding: 0 0.25rem;
+}
+
+.text-input {
+  padding: 0.65rem;
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 0.5px solid #bcbbbb;
+}
+
+.key-holder {
+  display: none;
+}
+
+.shift-left {
+  padding-left: 1.25rem;
+}
+
+.prefix {
+  position: absolute;
+  left: 0.5rem;
+  top: 0.625rem;
+}
+
+@media (min-width: 961px) {
+  .text-input {
+    outline: none;
+  }
+}

@@ -1,0 +1,41 @@
+<div class="input-container">
+  <app-labelled-input-box
+    (inputClick)="onInputClick()"
+    (outSideClick)="onOutSideClick()"
+    [value]="selectedSuggestionOption.displayValue"
+    (inputTextChange)="onInputTextChange($event)"
+    [placeholder]="placeholder"
+    [label]="label"
+  ></app-labelled-input-box>
+  <div
+    class="suggestion-container section-shadow bg-neutral-100"
+    *ngIf="isSuggestionBoxOpen"
+    #suggestionBox
+  >
+    <ul
+      class="suggestion-box"
+      role="list"
+      *ngIf="!isSuggestionLoading; else loading"
+    >
+      <li
+        *ngFor="let item of suggestionOptions"
+        (click)="onSuggestionClick(item)"
+        (keydown)="onSuggestionClick(item)"
+        tabindex="0"
+        class="suggestion-option fs-200"
+      >
+        {{ item.displayValue }}
+      </li>
+    </ul>
+    <ng-template #loading>
+      <app-shimmer-loader></app-shimmer-loader>
+    </ng-template>
+    <div *ngIf="!isSuggestionLoading && !suggestionOptions.length" i18n>
+      No Data Found!
+    </div>
+  </div>
+
+  <div *ngIf="errorMessage" class="error fs-150 fw-semi-bold">
+    {{ errorMessage }}
+  </div>
+</div>

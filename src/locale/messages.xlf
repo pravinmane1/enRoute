@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="1724660419335066897" datatype="html">
+        <source>cX</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/nav-controller/nav-controller.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5823028377509062018" datatype="html">
+        <source>Loyalty</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/nav-controller/nav-controller.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="74907142675132700" datatype="html">
+        <source>Flights</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/nav-controller/nav-controller.component.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1597470736145319726" datatype="html">
+        <source>Hotels</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/nav-controller/nav-controller.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="954702980611036148" datatype="html">
+        <source>Cars</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/nav-controller/nav-controller.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2309808536212982229" datatype="html">
+        <source>Activities</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/nav-controller/nav-controller.component.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1867391450957552872" datatype="html">
+        <source>Filter By</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/filter-flights/filter-flights.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5436004468493444470" datatype="html">
+        <source>Price Range</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/filter-flights/filter-flights.component.html</context>
+          <context context-type="linenumber">17,18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8731559220628645942" datatype="html">
+        <source>Booking Class</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/filter-flights/filter-flights.component.html</context>
+          <context context-type="linenumber">39,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1979427614739746486" datatype="html">
+        <source>Reset All</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/filter-flights/filter-flights.component.html</context>
+          <context context-type="linenumber">53,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4517691647545108767" datatype="html">
+        <source> Apply </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/filter-flights/filter-flights.component.html</context>
+          <context context-type="linenumber">60,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2067863610333602482" datatype="html">
+        <source>Minimum Price</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/filter-flights/filter-flights.component.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2292815126485835071" datatype="html">
+        <source>$</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/filter-flights/filter-flights.component.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/filter-flights/filter-flights.component.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5834699998566428689" datatype="html">
+        <source>Maximum Price</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/filter-flights/filter-flights.component.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8071204853402998860" datatype="html">
+        <source>Departure</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-input/flight-search-input.component.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-input/flight-search-input.component.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3759872760058326304" datatype="html">
+        <source>Airport or City</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-input/flight-search-input.component.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-input/flight-search-input.component.ts</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6697011716626383476" datatype="html">
+        <source>Select Departure Date</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-input/flight-search-input.component.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6313384618722370634" datatype="html">
+        <source>Select Return Date</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-input/flight-search-input.component.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="273842974435249443" datatype="html">
+        <source>Depart Date</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-input/flight-search-input.component.ts</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2924912316484492734" datatype="html">
+        <source>Return Date</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-input/flight-search-input.component.ts</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8377731202281606673" datatype="html">
+        <source>Search Flights</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-input/flight-search-input.component.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5086360350798585051" datatype="html">
+        <source>Select Class</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-input/flight-search-input.component.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4378796785985219718" datatype="html">
+        <source>Class</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-input/flight-search-input.component.ts</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7708270344948043036" datatype="html">
+        <source> <x id="INTERPOLATION" equiv-text="{{ flight.stops.length ? flight.stops.length + &quot; Stop&quot; : &quot;&quot; }}"/> </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-result/flight-search-result.component.html</context>
+          <context context-type="linenumber">78,79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7190735250842920604" datatype="html">
+        <source>$<x id="INTERPOLATION" equiv-text="{{ classType.price }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-result/flight-search-result.component.html</context>
+          <context context-type="linenumber">94,95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="187187500641108332" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ classType.name }}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-result/flight-search-result.component.html</context>
+          <context context-type="linenumber">95,96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7760715257633729110" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ classType.seatsLeft }}"/> seats left</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-result/flight-search-result.component.html</context>
+          <context context-type="linenumber">97,98</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2674009828609670137" datatype="html">
+        <source>sort by</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-result/flight-search-result.component.html</context>
+          <context context-type="linenumber">113,114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8461861562624504316" datatype="html">
+        <source> filters</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-result/flight-search-result.component.html</context>
+          <context context-type="linenumber">121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2835788009084423772" datatype="html">
+        <source> Adults</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-result/flight-search-result.component.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="568572053950914941" datatype="html">
+        <source> Adult</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-result/flight-search-result.component.ts</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1085049643063996634" datatype="html">
+        <source> Children</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-result/flight-search-result.component.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2677508162583421805" datatype="html">
+        <source> Child</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/flight-search-result/flight-search-result.component.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="345807521262019596" datatype="html">
+        <source>Sort By</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/sort-flights/sort-flights.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1464435073936969366" datatype="html">
+        <source> Done </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/sort-flights/sort-flights.component.html</context>
+          <context context-type="linenumber">41,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7227799542311299549" datatype="html">
+        <source>Price (Lowest to Highest)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/sort-flights/sort-flights.component.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3276401357248712151" datatype="html">
+        <source>Price (Highest to Lowest)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/sort-flights/sort-flights.component.ts</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7104847460545444356" datatype="html">
+        <source>Duration (Shortest to Longest)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/sort-flights/sort-flights.component.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4842189274229355111" datatype="html">
+        <source>Duration (Longest to Shortest)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/sort-flights/sort-flights.component.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3899530260331314635" datatype="html">
+        <source>Departure (Earliest to Latest)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/sort-flights/sort-flights.component.ts</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8782443181374017888" datatype="html">
+        <source>Arrival (Earliest to Latest)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/sort-flights/sort-flights.component.ts</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8365612875628062750" datatype="html">
+        <source>Airline (A to Z)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/sort-flights/sort-flights.component.ts</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6080067514549491371" datatype="html">
+        <source>Airline (Z to A)</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/sort-flights/sort-flights.component.ts</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2966629467662290013" datatype="html">
+        <source>Select Travellers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7427449336162062120" datatype="html">
+        <source> ADD NUMBER OF TRAVELLERS </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5674559636104858599" datatype="html">
+        <source>Adults</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.ts</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2279129312932447266" datatype="html">
+        <source>12 yrs &amp; above on the day of travel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4705822664965381735" datatype="html">
+        <source>Children</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.html</context>
+          <context context-type="linenumber">42,43</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.ts</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1166577784104453764" datatype="html">
+        <source>2-12 yrs &amp; above on the day of travel</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7292906070648113862" datatype="html">
+        <source>Travellers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9203114618545947849" datatype="html">
+        <source>Adults/Children</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2312076048705890765" datatype="html">
+        <source>DONE</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5028353865534552514" datatype="html">
+        <source>Adult</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.ts</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3933358723756013068" datatype="html">
+        <source>Child</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/components/travellers-selector/travellers-selector.component.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8901691048657107782" datatype="html">
+        <source>Economy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/class-options.const.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/class-options.const.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">113</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8643289769990675407" datatype="html">
+        <source>Basic</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/class-options.const.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/class-options.const.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">111</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3815928829326879804" datatype="html">
+        <source>Main</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/class-options.const.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/class-options.const.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">112</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1233059094941143498" datatype="html">
+        <source>Air India</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2748845051428213375" datatype="html">
+        <source>Vistara Airways</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2398730262643654282" datatype="html">
+        <source>Indigo Airline</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/feature-modules/flight/constants/flights.const.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6048892649018070225" datatype="html">
+        <source>Today</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/calendar-date-picker/calendar-date-picker.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7946980805904256266" datatype="html">
+        <source>Enter Date</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/date-range-picker/date-range-picker.component.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5837088194896830639" datatype="html">
+        <source> No Data Found! </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/components/suggestion-input/suggestion-input.component.html</context>
+          <context context-type="linenumber">34,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8563137213157122993" datatype="html">
+        <source>Mon</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8502240922750617054" datatype="html">
+        <source>Tue</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7421778640995344715" datatype="html">
+        <source>Wed</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4409954796361883558" datatype="html">
+        <source>Thu</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5651951128882735477" datatype="html">
+        <source>Fri</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="93026920674143073" datatype="html">
+        <source>Sat</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4921929243068857081" datatype="html">
+        <source>Sun</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/day-names.constant.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7595747576974676670" datatype="html">
+        <source>Jan</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/month-names.constant.ts</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4916040996255005712" datatype="html">
+        <source>Feb</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/month-names.constant.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6438827956918137617" datatype="html">
+        <source>Mar</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/month-names.constant.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5507326650332881991" datatype="html">
+        <source>Apr</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/month-names.constant.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8469692700277617405" datatype="html">
+        <source>May</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/month-names.constant.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2113470244260512015" datatype="html">
+        <source>Jun</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/month-names.constant.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="53176888553719239" datatype="html">
+        <source>Jul</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/month-names.constant.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5648574669404659458" datatype="html">
+        <source>Aug</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/month-names.constant.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8008220216521768133" datatype="html">
+        <source>Sept</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/month-names.constant.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6207754626941051341" datatype="html">
+        <source>Oct</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/month-names.constant.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8269261039058575292" datatype="html">
+        <source>Nov</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/month-names.constant.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7777579586760423636" datatype="html">
+        <source>Dec</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/constants/month-names.constant.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

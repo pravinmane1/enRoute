@@ -1,0 +1,29 @@
+<form>
+  <div class="grid-parent">
+    <app-suggestion-input
+      class="suggestion-input-departure"
+      [label]="'Staying City'"
+      [placeholder]="'Select City'"
+    ></app-suggestion-input>
+
+    <app-date-range-picker
+      class="input-date-picker"
+      [startDatePickerTitle]="'Select Check-in Date'"
+      [endDatePickerTitle]="'Select Check-out Date'"
+      [startDatePickerLabel]="'Check-in Date'"
+      [endDatePickerLabel]="'Check-out Date'"
+    ></app-date-range-picker>
+
+    <app-suggestion-input
+      class="class-type-input"
+      [label]="'Room Type'"
+      [placeholder]="'Select Room Type'"
+    ></app-suggestion-input>
+
+    <input
+      class="flight-search-btn btn-shadow bg-secondary-400 text-neutral-100 fs-450"
+      type="submit"
+      value="Search Hotels"
+    />
+  </div>
+</form>
