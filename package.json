@@ -13,7 +13,8 @@
     "lint:staged": "lint-staged",
     "format:fix": "pretty-quick --staged",
     "extract-i18n": "ng extract-i18n --output-path src/locale",
-    "prepare": "husky"
+    "prepare": "husky",
+    "deploy": "npm run build && npx angular-cli-ghpages --dir=dist/en-route/browser/en-US --cname=enroute.pravinmane.com --no-silent"
   },
   "private": true,
   "dependencies": {
