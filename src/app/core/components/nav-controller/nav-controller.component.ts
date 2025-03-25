@@ -19,23 +19,23 @@ export class NavControllerComponent implements OnInit {
   public tabs: ITabData[] = [
     {
       title: $localize`Flights`,
-      selectedIcon: './assets/module-nav-tab-icons/plane-s.svg',
-      unselectedIcon: './assets/module-nav-tab-icons/plane.svg',
+      selectedIcon: 'assets/module-nav-tab-icons/plane-s.svg',
+      unselectedIcon: 'assets/module-nav-tab-icons/plane.svg',
     },
     {
       title: $localize`Hotels`,
-      selectedIcon: './assets/module-nav-tab-icons/hotel-s.svg',
-      unselectedIcon: './assets/module-nav-tab-icons/hotel.svg',
+      selectedIcon: 'assets/module-nav-tab-icons/hotel-s.svg',
+      unselectedIcon: 'assets/module-nav-tab-icons/hotel.svg',
     },
     {
       title: $localize`Cars`,
-      selectedIcon: './assets/module-nav-tab-icons/car-s.svg',
-      unselectedIcon: './assets/module-nav-tab-icons/car.svg',
+      selectedIcon: 'assets/module-nav-tab-icons/car-s.svg',
+      unselectedIcon: 'assets/module-nav-tab-icons/car.svg',
     },
     {
       title: $localize`Activities`,
-      selectedIcon: './assets/module-nav-tab-icons/flag-s.svg',
-      unselectedIcon: './assets/module-nav-tab-icons/flag.svg',
+      selectedIcon: 'assets/module-nav-tab-icons/flag-s.svg',
+      unselectedIcon: 'assets/module-nav-tab-icons/flag.svg',
     },
   ];
 

@@ -18,9 +18,9 @@ export class FlightsApiService {
   private getFlights(departureAirport: string, arrivalAirport: string) {
     return FLIGHTS.map((flight) => {
       const airlineLogoUrls: { [s: string]: string } = {
-        'Air India': './assets/airlines/air-india.png',
-        'Vistara Airways': './assets/airlines/vistara.png',
-        'Indigo Airline': './assets/airlines/indigo.png',
+        'Air India': 'assets/airlines/air-india.png',
+        'Vistara Airways': 'assets/airlines/vistara.png',
+        'Indigo Airline': 'assets/airlines/indigo.png',
       };
 
       flight.airlineLogo = airlineLogoUrls[flight.airlineId];

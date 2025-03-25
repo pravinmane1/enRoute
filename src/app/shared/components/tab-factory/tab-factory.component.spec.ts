@@ -25,23 +25,23 @@ describe('TabFactoryComponent', () => {
     tabData = [
       {
         title: 'Flights',
-        selectedIcon: './assets/module-nav-tab-icons/plane-s.svg',
-        unselectedIcon: './assets/module-nav-tab-icons/plane.svg',
+        selectedIcon: 'assets/module-nav-tab-icons/plane-s.svg',
+        unselectedIcon: 'assets/module-nav-tab-icons/plane.svg',
       },
       {
         title: 'Hotels',
-        selectedIcon: './assets/module-nav-tab-icons/hotel-s.svg',
-        unselectedIcon: './assets/module-nav-tab-icons/hotel.svg',
+        selectedIcon: 'assets/module-nav-tab-icons/hotel-s.svg',
+        unselectedIcon: 'assets/module-nav-tab-icons/hotel.svg',
       },
       {
         title: 'Cars',
-        selectedIcon: './assets/module-nav-tab-icons/car-s.svg',
-        unselectedIcon: './assets/module-nav-tab-icons/car.svg',
+        selectedIcon: 'assets/module-nav-tab-icons/car-s.svg',
+        unselectedIcon: 'assets/module-nav-tab-icons/car.svg',
       },
       {
         title: 'Activities',
-        selectedIcon: './assets/module-nav-tab-icons/flag-s.svg',
-        unselectedIcon: './assets/module-nav-tab-icons/flag.svg',
+        selectedIcon: 'assets/module-nav-tab-icons/flag-s.svg',
+        unselectedIcon: 'assets/module-nav-tab-icons/flag.svg',
       },
     ];
 
@@ -57,12 +57,12 @@ describe('TabFactoryComponent', () => {
 
   it('should display the correct icon for the selected tab', () => {
     const icon = component.getTabIcon(0);
-    expect(icon).toBe('./assets/module-nav-tab-icons/plane-s.svg');
+    expect(icon).toBe('assets/module-nav-tab-icons/plane-s.svg');
   });
 
   it('should display the correct icon for an unselected tab', () => {
     const icon = component.getTabIcon(1);
-    expect(icon).toBe('./assets/module-nav-tab-icons/hotel.svg');
+    expect(icon).toBe('assets/module-nav-tab-icons/hotel.svg');
   });
 
   it('should emit tabChanged event with the correct index when a tab is clicked', () => {

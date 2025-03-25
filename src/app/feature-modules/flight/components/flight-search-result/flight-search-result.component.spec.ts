@@ -24,7 +24,7 @@ describe('FlightSearchResultComponent', () => {
       departure: 'PUN',
       destination: 'DEL',
       price: 500,
-      airlineLogo: './assets/airlines/air-india.png',
+      airlineLogo: 'assets/airlines/air-india.png',
       stops: [],
     },
     {
@@ -32,7 +32,7 @@ describe('FlightSearchResultComponent', () => {
       departure: 'PUN',
       destination: 'DEL',
       price: 700,
-      airlineLogo: './assets/airlines/air-india.png',
+      airlineLogo: 'assets/airlines/air-india.png',
       stops: [],
     },
   ];

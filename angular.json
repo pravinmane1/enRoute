@@ -28,7 +28,6 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "localize": ["en-US"],
             "outputPath": "dist/en-route",
             "index": "src/index.html",
             "browser": "src/main.ts",
