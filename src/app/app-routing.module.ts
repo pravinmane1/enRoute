@@ -23,7 +23,7 @@ const routes: Routes = [
       import('./feature-modules/cars/cars.module').then((m) => m.CarsModule),
   },
   {
-    path: 'activities',
+    path: 'adventures',
     loadChildren: () =>
       import('./feature-modules/activities/activities.module').then(
         (m) => m.ActivitiesModule

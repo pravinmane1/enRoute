@@ -33,7 +33,7 @@ export class NavControllerComponent implements OnInit {
       unselectedIcon: 'assets/module-nav-tab-icons/car.svg',
     },
     {
-      title: $localize`Activities`,
+      title: $localize`Adventures`,
       selectedIcon: 'assets/module-nav-tab-icons/flag-s.svg',
       unselectedIcon: 'assets/module-nav-tab-icons/flag.svg',
     },
@@ -43,7 +43,7 @@ export class NavControllerComponent implements OnInit {
     { path: 'flights', tabIndex: 0 },
     { path: 'hotels', tabIndex: 1 },
     { path: 'cars', tabIndex: 2 },
-    { path: 'activities', tabIndex: 3 },
+    { path: 'adventures', tabIndex: 3 },
   ];
 
   public selectedTabIndex$!: Observable<number>;

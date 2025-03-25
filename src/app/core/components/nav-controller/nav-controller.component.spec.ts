@@ -50,7 +50,7 @@ describe('NavControllerComponent', () => {
     expect(component.tabs[0].title).toBe('Flights');
     expect(component.tabs[1].title).toBe('Hotels');
     expect(component.tabs[2].title).toBe('Cars');
-    expect(component.tabs[3].title).toBe('Activities');
+    expect(component.tabs[3].title).toBe('Adventures');
   });
 
   it('should initialize selectedTabIndex$ correctly on ngOnInit', () => {

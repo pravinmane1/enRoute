@@ -39,7 +39,7 @@ describe('TabFactoryComponent', () => {
         unselectedIcon: 'assets/module-nav-tab-icons/car.svg',
       },
       {
-        title: 'Activities',
+        title: 'Adventures',
         selectedIcon: 'assets/module-nav-tab-icons/flag-s.svg',
         unselectedIcon: 'assets/module-nav-tab-icons/flag.svg',
       },
@@ -100,6 +100,6 @@ describe('TabFactoryComponent', () => {
     expect(tabElements[0].nativeElement.textContent).toContain('Flights');
     expect(tabElements[1].nativeElement.textContent).toContain('Hotels');
     expect(tabElements[2].nativeElement.textContent).toContain('Cars');
-    expect(tabElements[3].nativeElement.textContent).toContain('Activities');
+    expect(tabElements[3].nativeElement.textContent).toContain('adventures');
   });
 });
